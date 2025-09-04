@@ -123,7 +123,7 @@ public class Level {
                     continue;
                 }
                 //画子弹
-                CartridgeModel.CartridgeModelDraw(cartridge,g);
+                CartridgeModel.drawCartridgeModel(cartridge,g);
             }
         }
 
@@ -140,7 +140,7 @@ public class Level {
                 continue;
             }
             //画子弹
-            CartridgeModel.CartridgeModelDraw(cartridge,g);
+            CartridgeModel.drawCartridgeModel(cartridge,g);
         }
 
         //画爆炸效果

@@ -14,7 +14,7 @@ public class CartridgeModel extends Background{
     }
 
     //画子弹
-    public static void CartridgeModelDraw(Cartridge cartridge, Graphics g){
+    public static void drawCartridgeModel(Cartridge cartridge, Graphics g){
         int x = cartridge.getX();
         int y = cartridge.getY();
         g.fillOval(x, y, 6, 6);
